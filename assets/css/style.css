@@ -27,11 +27,11 @@ nav{
     background-color: pink;
 }
 
-#logo{
+.logo{
     width: 20%;
 }
 
-#limks{
+#links{
     width: 60%; 
 }
 
@@ -87,3 +87,39 @@ a{
 .finale{
     background-color: green;
 }
+/* parte footer */
+footer{
+    background-color: gray;
+    height: 500px; 
+    text-align: center;
+}
+.primo{
+    width: 30%;
+    height: 100%;
+    background-color: pink;
+}
+
+.quartetto{
+    width: calc(80%/4);
+    height: 100%;
+    background-color: aqua;
+}
+
+#sing-up{
+    width: 20%;
+    justify-self: flex-end;
+}
+
+#nav-footer{
+    border-top: 2px solid blue;
+    background-color: gray;
+    height: 50px; 
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+    
