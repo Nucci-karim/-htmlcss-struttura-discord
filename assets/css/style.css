@@ -4,3 +4,57 @@
     box-sizing: border-box;
 }
 
+/* tutto nell'header */
+header{
+    height: 300px;
+    background-color: blue;
+}
+
+nav{
+    background-color: gray;
+    height: 50px; 
+    text-align: center;
+    display: flex;
+}
+
+.section-nav{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: pink;
+}
+
+#logo{
+    width: 20%;
+}
+
+#limks{
+    width: 60%; 
+}
+
+#login{
+    width: 20%;
+    justify-self: flex-end;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.box, .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 200px;
+    margin: 20px auto ;
+    background-color: pink;
+}
+
+/* tutto per main */
+
