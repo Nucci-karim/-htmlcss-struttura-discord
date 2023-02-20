@@ -6,7 +6,7 @@
 
 /* tutto nell'header */
 header{
-    height: 300px;
+    height: 500px;
     background-color: blue;
 }
 
@@ -45,16 +45,45 @@ a{
     text-decoration: none;
 }
 
-.box, .header{
+.header{
+    background-color: pink;
+}
+
+.box{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:center;
     width: 70%;
-    height: 200px;
+    height: 400px;
     margin: 20px auto ;
-    background-color: pink;
 }
 
 /* tutto per main */
+.bianco{
+    background-color: white;
+    display: flex;
+}
 
+.grigio{
+    background-color: grey;
+}
+
+.principale {
+    width: 60%;
+    background-color: aqua;
+}
+
+.sinistra{
+    width: 40%;
+    background-color: blanchedalmond;
+}
+
+.destra{
+    width: 40%;
+    background-color: bisque;
+}
+
+.finale{
+    background-color: green;
+}
